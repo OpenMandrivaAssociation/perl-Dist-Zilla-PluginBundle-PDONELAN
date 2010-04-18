@@ -1,5 +1,5 @@
 %define upstream_name    Dist-Zilla-PluginBundle-PDONELAN
-%define upstream_version 1.100830
+%define upstream_version 1.101060
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
