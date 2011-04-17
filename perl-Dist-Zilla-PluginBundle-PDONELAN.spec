@@ -19,6 +19,17 @@ BuildRequires: perl(File::Temp)
 BuildRequires: perl(Moose)
 BuildRequires: perl(Moose::Autobox)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Dist::Zilla::Plugin::CheckChangeLog)
+BuildRequires: perl(Dist::Zilla::Plugin::CheckChangesTests)
+BuildRequires: perl(Dist::Zilla::Plugin::CompileTests)
+BuildRequires: perl(Dist::Zilla::Plugin::DistManifestTests)
+BuildRequires: perl(Dist::Zilla::Plugin::HasVersionTests)
+BuildRequires: perl(Dist::Zilla::Plugin::MinimumVersionTests)
+BuildRequires: perl(Dist::Zilla::Plugin::PodWeaver)
+BuildRequires: perl(Dist::Zilla::Plugin::PortabilityTests)
+BuildRequires: perl(Dist::Zilla::Plugin::Prepender)
+BuildRequires: perl(Dist::Zilla::Plugin::ReadmeFromPod)
+BuildRequires: perl(Module::Build) >= 0.3601
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
