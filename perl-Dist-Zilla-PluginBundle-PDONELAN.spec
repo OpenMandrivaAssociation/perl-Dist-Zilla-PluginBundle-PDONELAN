@@ -29,7 +29,7 @@ BuildRequires: perl(Dist::Zilla::Plugin::PodWeaver)
 BuildRequires: perl(Dist::Zilla::Plugin::PortabilityTests)
 BuildRequires: perl(Dist::Zilla::Plugin::Prepender)
 BuildRequires: perl(Dist::Zilla::Plugin::ReadmeFromPod)
-BuildRequires: perl(Module::Build) >= 0.3601
+BuildRequires: perl(Module::Build)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
