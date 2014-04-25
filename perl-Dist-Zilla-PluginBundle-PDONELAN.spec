@@ -13,6 +13,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires: perl(Dist::Zilla::Plugin::EOLTests)
 BuildRequires:	perl(Dist::Zilla::PluginBundle::Filter)
 BuildRequires:	perl(Dist::Zilla::PluginBundle::Git)
 BuildRequires:	perl(Dist::Zilla::Role::PluginBundle)
